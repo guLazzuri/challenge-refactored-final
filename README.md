@@ -159,6 +159,10 @@ dotnet test
 ## 👥 Integrantes do Grupo
 
 - [Gustavo Ramires Lazzuri] - RM[556772]
+- [Mateus Henrique de Souza] - RM[558424]
+- [Cauan Aranega S Passos] - RM[555466]
+
+
 
 ## 📋 Checklist de Requisitos (CP5)
 
