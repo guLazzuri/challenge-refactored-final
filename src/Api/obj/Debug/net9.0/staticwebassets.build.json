@@ -1,0 +1,12 @@
+{
+  "Version": 1,
+  "Hash": "AqeoKCVfxBOSEbWYM7W6QT1VPS01Ho5eas7OOWqicYU=",
+  "Source": "challenge",
+  "BasePath": "_content/challenge",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": [],
+  "Endpoints": []
+}

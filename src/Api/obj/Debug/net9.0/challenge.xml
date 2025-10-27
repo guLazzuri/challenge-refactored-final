@@ -1,0 +1,162 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>challenge</name>
+    </assembly>
+    <members>
+        <member name="T:challenge.Api.Controllers.UsersController">
+            <summary>
+            Controller para gerenciamento de usuários
+            </summary>
+        </member>
+        <member name="M:challenge.Api.Controllers.UsersController.GetAllUsers">
+            <summary>
+            Obtém todos os usuários
+            </summary>
+            <returns>Lista de usuários</returns>
+        </member>
+        <member name="M:challenge.Api.Controllers.UsersController.GetUserById(System.Int32)">
+            <summary>
+            Obtém um usuário por ID
+            </summary>
+            <param name="id">ID do usuário</param>
+            <returns>Dados do usuário</returns>
+        </member>
+        <member name="M:challenge.Api.Controllers.UsersController.GetUserByEmail(System.String)">
+            <summary>
+            Obtém um usuário por email
+            </summary>
+            <param name="email">Email do usuário</param>
+            <returns>Dados do usuário</returns>
+        </member>
+        <member name="M:challenge.Api.Controllers.UsersController.GetActiveUsers">
+            <summary>
+            Obtém usuários ativos
+            </summary>
+            <returns>Lista de usuários ativos</returns>
+        </member>
+        <member name="M:challenge.Api.Controllers.UsersController.GetUsersByType(challenge.Domain.Enums.UserType)">
+            <summary>
+            Obtém usuários por tipo
+            </summary>
+            <param name="type">Tipo do usuário</param>
+            <returns>Lista de usuários do tipo especificado</returns>
+        </member>
+        <member name="M:challenge.Api.Controllers.UsersController.CreateUser(challenge.Application.DTOs.CreateUserDto)">
+            <summary>
+            Cria um novo usuário
+            </summary>
+            <param name="createDto">Dados do usuário a ser criado</param>
+            <returns>Dados do usuário criado</returns>
+        </member>
+        <member name="M:challenge.Api.Controllers.UsersController.UpdateUser(System.Int32,challenge.Application.DTOs.UpdateUserDto)">
+            <summary>
+            Atualiza um usuário existente
+            </summary>
+            <param name="id">ID do usuário</param>
+            <param name="updateDto">Dados a serem atualizados</param>
+            <returns>Dados do usuário atualizado</returns>
+        </member>
+        <member name="M:challenge.Api.Controllers.UsersController.DeactivateUser(System.Int32)">
+            <summary>
+            Desativa um usuário
+            </summary>
+            <param name="id">ID do usuário</param>
+            <returns>Dados do usuário desativado</returns>
+        </member>
+        <member name="M:challenge.Api.Controllers.UsersController.ActivateUser(System.Int32)">
+            <summary>
+            Ativa um usuário
+            </summary>
+            <param name="id">ID do usuário</param>
+            <returns>Dados do usuário ativado</returns>
+        </member>
+        <member name="M:challenge.Api.Controllers.UsersController.DeleteUser(System.Int32)">
+            <summary>
+            Remove um usuário
+            </summary>
+            <param name="id">ID do usuário</param>
+            <returns>Confirmação da remoção</returns>
+        </member>
+        <member name="T:challenge.Api.Controllers.VehiclesController">
+            <summary>
+            Controller para gerenciamento de veículos
+            </summary>
+        </member>
+        <member name="M:challenge.Api.Controllers.VehiclesController.GetAllVehicles">
+            <summary>
+            Obtém todos os veículos
+            </summary>
+            <returns>Lista de veículos</returns>
+        </member>
+        <member name="M:challenge.Api.Controllers.VehiclesController.GetVehicleById(System.Int32)">
+            <summary>
+            Obtém um veículo por ID
+            </summary>
+            <param name="id">ID do veículo</param>
+            <returns>Dados do veículo</returns>
+        </member>
+        <member name="M:challenge.Api.Controllers.VehiclesController.GetVehicleByLicensePlate(System.String)">
+            <summary>
+            Obtém um veículo por placa
+            </summary>
+            <param name="licensePlate">Placa do veículo</param>
+            <returns>Dados do veículo</returns>
+        </member>
+        <member name="M:challenge.Api.Controllers.VehiclesController.GetAvailableVehicles">
+            <summary>
+            Obtém veículos disponíveis para locação
+            </summary>
+            <returns>Lista de veículos disponíveis</returns>
+        </member>
+        <member name="M:challenge.Api.Controllers.VehiclesController.GetVehiclesByStatus(challenge.Domain.Enums.VehicleStatus)">
+            <summary>
+            Obtém veículos por status
+            </summary>
+            <param name="status">Status do veículo</param>
+            <returns>Lista de veículos com o status especificado</returns>
+        </member>
+        <member name="M:challenge.Api.Controllers.VehiclesController.CreateVehicle(challenge.Application.DTOs.CreateVehicleDto)">
+            <summary>
+            Cria um novo veículo
+            </summary>
+            <param name="createDto">Dados do veículo a ser criado</param>
+            <returns>Dados do veículo criado</returns>
+        </member>
+        <member name="M:challenge.Api.Controllers.VehiclesController.UpdateVehicle(System.Int32,challenge.Application.DTOs.UpdateVehicleDto)">
+            <summary>
+            Atualiza um veículo existente
+            </summary>
+            <param name="id">ID do veículo</param>
+            <param name="updateDto">Dados a serem atualizados</param>
+            <returns>Dados do veículo atualizado</returns>
+        </member>
+        <member name="M:challenge.Api.Controllers.VehiclesController.ChangeVehicleStatus(System.Int32,challenge.Application.DTOs.VehicleStatusDto)">
+            <summary>
+            Altera o status de um veículo
+            </summary>
+            <param name="id">ID do veículo</param>
+            <param name="statusDto">Novo status do veículo</param>
+            <returns>Dados do veículo atualizado</returns>
+        </member>
+        <member name="M:challenge.Api.Controllers.VehiclesController.DeleteVehicle(System.Int32)">
+            <summary>
+            Remove um veículo
+            </summary>
+            <param name="id">ID do veículo</param>
+            <returns>Confirmação da remoção</returns>
+        </member>
+        <member name="T:challenge.Migrations.InitialCreate">
+            <inheritdoc />
+        </member>
+        <member name="M:challenge.Migrations.InitialCreate.Up(Microsoft.EntityFrameworkCore.Migrations.MigrationBuilder)">
+            <inheritdoc />
+        </member>
+        <member name="M:challenge.Migrations.InitialCreate.Down(Microsoft.EntityFrameworkCore.Migrations.MigrationBuilder)">
+            <inheritdoc />
+        </member>
+        <member name="M:challenge.Migrations.InitialCreate.BuildTargetModel(Microsoft.EntityFrameworkCore.ModelBuilder)">
+            <inheritdoc />
+        </member>
+    </members>
+</doc>

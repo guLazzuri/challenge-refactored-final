@@ -1,0 +1,13 @@
+/home/ubuntu/challenge-refactored/challenge-refactored/src/Domain/obj/Debug/net8.0/Domain.GeneratedMSBuildEditorConfig.editorconfig
+/home/ubuntu/challenge-refactored/challenge-refactored/src/Domain/obj/Debug/net8.0/Domain.AssemblyInfoInputs.cache
+/home/ubuntu/challenge-refactored/challenge-refactored/src/Domain/obj/Debug/net8.0/Domain.AssemblyInfo.cs
+/home/ubuntu/challenge-refactored/challenge-refactored/src/Domain/obj/Debug/net8.0/Domain.csproj.CoreCompileInputs.cache
+/home/ubuntu/challenge-refactored/challenge-refactored/src/Domain/obj/Debug/net8.0/Domain.sourcelink.json
+/home/ubuntu/challenge-refactored/challenge-refactored/src/Domain/obj/Debug/net8.0/Domain.csproj.AssemblyReference.cache
+/home/ubuntu/challenge-refactored/challenge-refactored/src/Domain/bin/Debug/net8.0/Domain.deps.json
+/home/ubuntu/challenge-refactored/challenge-refactored/src/Domain/bin/Debug/net8.0/Domain.dll
+/home/ubuntu/challenge-refactored/challenge-refactored/src/Domain/bin/Debug/net8.0/Domain.pdb
+/home/ubuntu/challenge-refactored/challenge-refactored/src/Domain/obj/Debug/net8.0/Domain.dll
+/home/ubuntu/challenge-refactored/challenge-refactored/src/Domain/obj/Debug/net8.0/refint/Domain.dll
+/home/ubuntu/challenge-refactored/challenge-refactored/src/Domain/obj/Debug/net8.0/Domain.pdb
+/home/ubuntu/challenge-refactored/challenge-refactored/src/Domain/obj/Debug/net8.0/ref/Domain.dll
