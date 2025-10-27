@@ -164,18 +164,6 @@ dotnet test
 
 
 
-## 📋 Checklist de Requisitos (CP5)
-
-| Critério | Status | Pontos | Observação |
-| :--- | :--- | :--- | :--- |
-| **Clean Architecture** | ✅ | 1.0 | Estrutura de camadas mantida e aprimorada. |
-| **Domain-Driven Design (DDD)** | ✅ | 1.0 | Entidades ricas, VOs, Agregado Raiz e Interfaces de Repositório. |
-| **Clean Code (SRP, DRY, KISS, YAGNI)** | ✅ | 1.0 | Revisão e aplicação dos princípios. |
-| **MongoDB (Conexão + CRUD)** | ✅ | 3.0 | Migração completa para MongoDB com repositório genérico. |
-| **Health Check** | ✅ | 2.0 | Endpoint `/health` com verificação de conectividade do MongoDB. |
-| **Swagger + Versionamento** | ✅ | 1.0 | Swagger configurado para v1 e v2 (exemplo). |
-| **Organização do GitHub + Commits** | 🚧 | 1.0 | Estrutura de pastas coerente. |
-| **Total Máximo** | | **10.0** | |
 
 ## 📄 Licença
 
